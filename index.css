@@ -1,0 +1,57 @@
+body{
+    font-family: 'Teko', serif;
+    background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 0 0 2rem 1rem;
+    color:white;
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+label{
+    display: block;
+    font-size: 1.3rem;
+}
+
+#ip-container{
+    text-align: center;
+    display:flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    max-width: 30em;
+    height: 20em;
+    border-radius: 2em;
+    box-shadow: 0 0 2px 1px #C0CEFF;
+}
+#ip-content{
+    margin: 0 auto;
+    vertical-align: center;
+}
+
+#ip-search{
+    border: none;
+    background-color: #C0CEFF;
+    border-radius: 2rem;
+    width: 25rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#ip-search:hover {
+    transform: scale(1.05);
+}
+#ip-search::placeholder {
+    color: white;
+}
+
+
