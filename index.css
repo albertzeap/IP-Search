@@ -54,4 +54,15 @@ label{
     color: white;
 }
 
+#user-ip{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #C0CEFF;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#user-ip:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
