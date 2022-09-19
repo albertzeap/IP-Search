@@ -17,6 +17,14 @@ a{
     font-size: 4rem;
 }
 
+h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 2rem 1rem;
+    color:white;
+    font-size: 4rem;
+}
+
 h3{
     font-size: 2rem;
 }
