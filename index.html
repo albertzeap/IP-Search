@@ -10,19 +10,21 @@
     </head>
     <body>
         <main>
-            <h1>IP FINDER</h1>
+            <a href="/">IP FINDER</a>
             <div id="ip-container">
                 <div id="ip-content">
                     <h3>Your IP Address</h3>
                     <p id="user-ip"></p>
                     <form>
                         <label for="ip-search">Search IP: </label>
-                        <input id="ip-search" name = "ip-search" type="search" placeholder="127.0.0.1">
+                        <input id="ip-search" name ="ip-search" type="search" pattern = "([0-9]*.[0-9]*.[0-9]*.[0-9]*)" autocomplete="off">
                     </form>
-                    
                 </div>
             </div>
-
+            <div id="details-container"></div>
+            <div id="disclaimer">
+                <p>DISCLAIMER: Ad-blocker may disable functionality</p>
+            </div>
         </main>
     </body>
     <script src="ip.js"></script>

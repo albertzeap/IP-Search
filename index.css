@@ -2,14 +2,18 @@ body{
     font-family: 'Teko', serif;
     background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-color: #47072B;
+    background-repeat: repeat;
+    height: 100%;
 }
 
-h1{
+a{
+    display: block;
     text-align: center;
+    margin: 0 auto;
     padding: 0 0 2rem 1rem;
     color:white;
+    text-decoration: none;
     font-size: 4rem;
 }
 
@@ -66,3 +70,26 @@ label{
     transform: scale(1.05);
 }
 
+#details-container{
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    max-width: 30em;
+    /* height: 20em; */
+    border-radius: 2em;
+    box-shadow: 0 0 2px 1px #C0CEFF;
+    background-color: white;
+}
+
+#details-container p {
+    font-size: 1.3rem;
+}
+
+#disclaimer {
+    text-align: center;
+}
+
+#disclaimer p{
+    font-size: 1rem;
+    color: white;
+}
